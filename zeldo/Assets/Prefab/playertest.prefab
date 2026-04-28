@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 398277017599174633}
   - component: {fileID: 5772769150838556029}
   - component: {fileID: -7629066453680886922}
+  - component: {fileID: 9078099547064215341}
   m_Layer: 3
   m_Name: playertest
   m_TagString: Untagged
@@ -347,3 +348,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   life: 3
+--- !u!114 &9078099547064215341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9168339160481409648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b59976fae5cf749bb6d594afdcb7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwitchWeapon

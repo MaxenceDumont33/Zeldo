@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 79ec6febdcffbfa498d6aef8bae013a4
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -935,12 +935,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 0
   windowsGamepadBackendHint: 0
   cloudProjectId: 081d4d14-f6da-419a-90c8-fa800a2b5fbc
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: zeldo
+  projectName: 
   organizationId: lemagiciean1234
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
