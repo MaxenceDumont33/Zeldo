@@ -5,7 +5,7 @@ public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
     private bool cameraIsMoving = false;
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Projectile"))
         {
@@ -13,7 +13,7 @@ public class CameraMovement : MonoBehaviour
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            CameraMove(collision.transform.position,transform.position);
+            CameraMove(collision.transform.position, transform.position);
         }
     }
     private Vector2 DirectionToAxis(Vector2 direction)

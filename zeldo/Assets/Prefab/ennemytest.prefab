@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1503105886181081089}
   - component: {fileID: 9222496663551182765}
   - component: {fileID: 4245520805205369230}
+  - component: {fileID: 7386731404306553785}
   m_Layer: 0
   m_Name: ennemytest
   m_TagString: Untagged
@@ -141,3 +142,15 @@ MonoBehaviour:
   projectile: {fileID: 8101735099793298666, guid: aeee6e9420785814f8c7cea4eff6ea18,
     type: 3}
   spawnPosition: {fileID: 458994322226050874}
+--- !u!114 &7386731404306553785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5713014299309849620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcc8998109a998499c9414d6c0b432d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyViewField
